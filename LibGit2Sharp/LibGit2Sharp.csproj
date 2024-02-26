@@ -1,14 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net472;net6.0</TargetFrameworks>
+    <PackageId>Apiiro.LibGit2Sharp</PackageId>
+    <Authors>Apiiro</Authors>
+    <Company>Apiiro</Company>
+    <RepositoryUrl>https://github.com/apiiro/libgit2sharp</RepositoryUrl>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <Description>LibGit2Sharp brings all the might and speed of libgit2, a native Git implementation, to the managed world of .NET</Description>
-    <Company>LibGit2Sharp contributors</Company>
+    <PackageDescription>LibGit2Sharp brings all the might and speed of libgit2, a native Git implementation, to the managed world of .NET</PackageDescription>
     <Copyright>Copyright © LibGit2Sharp contributors</Copyright>
     <PackageTags>libgit2 git</PackageTags>
-    <PackageProjectUrl>https://github.com/libgit2/libgit2sharp/</PackageProjectUrl>
-    <Authors>LibGit2Sharp contributors</Authors>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <DebugType>embedded</DebugType>
