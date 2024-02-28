@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net472;net6.0</TargetFrameworks>
+    <TargetFramework>net6.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Description>LibGit2Sharp brings all the might and speed of libgit2, a native Git implementation, to the managed world of .NET</Description>
     <Company>LibGit2Sharp contributors</Company>
@@ -20,6 +20,9 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <MinVerDefaultPreReleaseIdentifiers>preview.0</MinVerDefaultPreReleaseIdentifiers>
     <MinVerBuildMetadata Condition="'$(libgit2_hash)' != ''">libgit2-$(libgit2_hash.Substring(0,7))</MinVerBuildMetadata>
+    <PackageId>Apiiro.LibGit2Sharp</PackageId>
+    <Authors>Apiiro</Authors>
+    <Company>Apiiro</Company>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,7 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LibGit2Sharp.NativeBinaries" Version="[2.0.320]" PrivateAssets="none" />
+    <PackageReference Include="LibGit2Sharp.NativeBinaries" Version="2.0.316" PrivateAssets="none" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="all" />
     <PackageReference Include="MinVer" Version="4.3.0" PrivateAssets="all" />
   </ItemGroup>
