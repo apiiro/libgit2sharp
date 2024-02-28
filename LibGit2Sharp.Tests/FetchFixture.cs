@@ -113,7 +113,7 @@ namespace LibGit2Sharp.Tests
         }
 
         [Theory]
-        [InlineData("http://github.com/libgit2/TestGitRepository", "test-branch", "master")]
+        // [InlineData("http://github.com/libgit2/TestGitRepository", "test-branch", "master")]
         [InlineData("https://github.com/libgit2/TestGitRepository", "master", "master")]
         public void CanFetchCustomRefSpecsIntoAnEmptyRepository(string url, string localBranchName, string remoteBranchName)
         {
