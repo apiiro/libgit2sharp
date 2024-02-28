@@ -64,8 +64,6 @@ jobs:
         include:
           - sdk: '6.0'
             tfm: net6.0
-          - sdk: '7.0'
-            tfm: net7.0
       fail-fast: false
     steps:
       - name: Checkout
