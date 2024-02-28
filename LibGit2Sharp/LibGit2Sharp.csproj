@@ -20,6 +20,9 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <MinVerDefaultPreReleaseIdentifiers>preview.0</MinVerDefaultPreReleaseIdentifiers>
     <MinVerBuildMetadata Condition="'$(libgit2_hash)' != ''">libgit2-$(libgit2_hash.Substring(0,7))</MinVerBuildMetadata>
+    <PackageId>Apiiro.LibGit2Sharp</PackageId>
+    <Authors>Apiiro</Authors>
+    <Company>Apiiro</Company>
   </PropertyGroup>
 
   <ItemGroup>
